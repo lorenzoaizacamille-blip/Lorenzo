@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BlueWave | School Portal</title>
+
+    <link rel="stylesheet" href="lorenzo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="lorenzo.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+            <span class="logo-icon">B</span>
+            <span>Blue<span class="logo-blue">Wave</span></span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <button class="nav-button" id="getStarted">Get Started ↗</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <span class="eyebrow">
+                    ✦ YOUR SCHOOL, YOUR FUTURE
+                </span>
+
+                <h1>
+                    Learn More.<br>
+                    Dream Bigger.<br>
+                    <span>Go Beyond.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Welcome to BlueWave, a modern school portal
+                    designed to make learning easier, more organized,
+                    and more accessible for everyone.
+                </p>
+
+                <div class="hero-actions">
+                    <button class="primary-button" id="exploreButton">
+                        Explore Website <span>→</span>
+                    </button>
+
+                    <a href="#about" class="secondary-button">
+                        Learn More
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span class="online-dot"></span>
+                    A smarter way to experience school.
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="decor-circle circle-one"></div>
+                <div class="decor-circle circle-two"></div>
+
+                <div class="floating-card top-card">
+                    <span class="floating-icon">✦</span>
+                    <div>
+                        <strong>Keep Growing!</strong>
+                        <small>Your future starts today.</small>
+                    </div>
+                </div>
+
+                <div class="dashboard-card">
+                    <div class="dashboard-top">
+                        <div>
+                            <span class="small-label">WELCOME TO</span>
+                            <h2>BlueWave Portal</h2>
+                        </div>
+                        <div class="dashboard-logo">B</div>
+                    </div>
+
+                    <div class="welcome-banner">
+                        <span class="banner-icon">🎓</span>
+                        <div>
+                            <h3>Welcome, Student!</h3>
+                            <p>Ready to achieve more today?</p>
+                        </div>
+                    </div>
+
+                    <div class="quick-title">Quick Access</div>
+
+                    <div class="quick-grid">
+                        <button class="quick-item" data-message="Welcome to the Learning Resources section!">
+                            <span class="quick-icon blue-icon">▤</span>
+                            <span>Learning</span>
+                        </button>
+
+                        <button class="quick-item" data-message="Your academic dashboard is ready to explore!">
+                            <span class="quick-icon purple-icon">▦</span>
+                            <span>Dashboard</span>
+                        </button>
+
+                        <button class="quick-item" data-message="Check the latest school announcements here!">
+                            <span class="quick-icon cyan-icon">♧</span>
+                            <span>Updates</span>
+                        </button>
+
+                        <button class="quick-item" data-message="Your profile section is ready!">
+                            <span class="quick-icon green-icon">♙</span>
+                            <span>Profile</span>
+                        </button>
+                    </div>
+
+                    <div class="dashboard-footer">
+                        <span class="footer-dot"></span>
+                        Learning made simple
+                        <span class="footer-star">✦</span>
+                    </div>
+                </div>
+
+                <div class="floating-card bottom-card">
+                    <span class="check-icon">✓</span>
+                    <div>
+                        <strong>Stay Organized</strong>
+                        <small>Everything in one place.</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features section-padding" id="features">
+            <div class="section-heading">
+                <span class="eyebrow">WHAT WE OFFER</span>
+                <h2>Everything You Need, <span>In One Place.</span></h2>
+                <p>Explore tools designed to make your school experience better.</p>
+            </div>
+
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <div class="feature-icon icon-blue">▤</div>
+                    <h3>Learning Resources</h3>
+                    <p>Keep learning materials and useful educational resources organized.</p>
+                    <a href="#contact" class="feature-link">Explore more →</a>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon icon-purple">▦</div>
+                    <h3>Student Dashboard</h3>
+                    <p>Discover a simple space for school information and student activities.</p>
+                    <a href="#contact" class="feature-link">Explore more →</a>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon icon-cyan">♧</div>
+                    <h3>School Updates</h3>
+                    <p>Stay informed about announcements, activities, and important reminders.</p>
+                    <a href="#contact" class="feature-link">Explore more →</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section section-padding" id="about">
+            <div class="about-visual">
+                <div class="about-blue-card">
+                    <span class="about-symbol">✦</span>
+                    <h3>Knowledge opens doors.</h3>
+                    <p>Every small step brings you closer to your goals.</p>
+                    <div class="about-line"></div>
+                    <span class="about-caption">LEARN • GROW • ACHIEVE</span>
+                </div>
+            </div>
+
+            <div class="about-content">
+                <span class="eyebrow">ABOUT BLUEWAVE</span>
+                <h2>Making School Life <span>Simpler and Better.</span></h2>
+
+                <p>
+                    BlueWave is a sample school website concept that
+                    brings useful information and student resources
+                    together in one accessible place.
+                </p>
+
+                <p>
+                    Our goal is to create a welcoming digital experience
+                    where students can explore information easily and
+                    stay connected with school activities.
+                </p>
+
+                <a href="#contact" class="primary-button about-button">
+                    Get in Touch →
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section section-padding" id="contact">
+            <div class="contact-box">
+                <span class="eyebrow light-eyebrow">LET'S CONNECT</span>
+                <h2>Have Questions?</h2>
+                <p>
+                    Want to know more about this school website?
+                    Send us a message using the button below.
+                </p>
+                <button class="contact-button" id="contactButton">
+                    Contact Us ✉
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#home" class="logo footer-logo">
+            <span class="logo-icon">B</span>
+            <span>Blue<span class="logo-blue">Wave</span></span>
+        </a>
+
+        <p>© <span id="currentYear"></span> BlueWave School Portal. Student Project.</p>
+
+        <a href="#home" class="back-top">Back to top ↑</a>
+    </footer>
+
+    <!-- Message Popup -->
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>
+
